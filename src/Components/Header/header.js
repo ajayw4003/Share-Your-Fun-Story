@@ -24,7 +24,7 @@ const Header = () => {
             <nav>
 
                 <div className="nav-links" id="navLinks">
-                    <i class="fa fa-window-close" id="close" onClick = {closeMenu}></i>
+                    <i className="fa fa-window-close" id="close" onClick = {closeMenu}></i>
                   <ul>
                       <li><a href="index.html">HOME</a></li>
                       <li><a href="index.html">ABOUT</a></li>
@@ -32,7 +32,7 @@ const Header = () => {
                       <li><a href="index.html">CONTACT</a></li>
                   </ul>
               </div>
-              <i class="fa fa-bars"  id = "open" onClick = {showMenu}></i>
+              <i className="fa fa-bars"  id = "open" onClick = {showMenu}></i>
             </nav>
             <h1 className = "title" id ="title">Share Your Fun Story</h1>
         </section>
