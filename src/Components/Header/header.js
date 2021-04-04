@@ -37,11 +37,11 @@ const Header = () => {
             <h1 className = "title" id ="title">Share Your Fun Story</h1>
         </section>
         <section className = "content">
-            <h1>Storied You Want To Read</h1>
-            <p>Select from below categories stories you would like to read</p>
+            <h1>Stories You Want To Read</h1>
+            <p>Select from below categories stories you would like to read.</p>
             <div className = "row">
                 <div className = "category-col">
-                    <h3>Interview Embarassment/Fun Interviews</h3>
+                    <h3>Interview Embarassment/Funny Interviews</h3>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,  
                         when an unknown printer took a galley of type and scrambled it to make a type 
@@ -71,6 +71,17 @@ const Header = () => {
                     </div>
                 </div>
             </div>
+        </section>
+        <section class="footer">
+            <h3 class="about">Contact Us</h3>
+            <p>pLorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <div class="icons">
+                    <i class="fa fa-facebook"></i>
+                    <i class="fa fa-twitter"></i>
+                    <i class="fa fa-instagram"></i>
+                    <i class="fa fa-linkedin"></i>
+                </div>
+            <p>Thanks for <i class="fa fa-heart-o"></i> Share your story</p>
         </section>
         </div>
     );
